@@ -1,0 +1,250 @@
+:root {
+    --color-1: #121212;
+    --color-2: #1d1d1d;
+    --color-3: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+    --color-4: #bea69e;
+    --color-5: #fff;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: var(--color-1);
+    color: var(--color-5);
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0 0 0 0;
+}
+li {
+    padding: 0 0 0 0;
+}
+
+a {
+    color: var(--color-5);
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: var(--color-4);
+}
+
+/* header */
+header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1240px;
+}
+.nav {
+    padding: 0 50px 0  50px;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 14px;   
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    width: 982px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    color: var(--color-5);
+    margin-right: 20px;
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    height: 18px;
+    gap: 40px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+/* button */
+button {
+    border-radius: 12px;
+    border: none;
+    padding: 16px 84px;
+    width: 239px;
+    height: 60px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    white-space: nowrap;
+
+    /* line-height: 28px; */ 
+    line-height: 156%;
+    text-transform: uppercase;
+    color: var(--color-1);
+}
+button:hover, button:active {
+    background: var(--color-2);
+    color: var(--color-4);
+}
+
+/* hero */
+.hero {
+    border-radius: 30px;
+    width: 1240px;
+    height: 600px;
+    background-color: var(--color-2);
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+    display: flex;
+    flex-direction: row;
+}
+.hero-img {
+    padding-left: 130px;
+
+    padding-bottom: 0;
+    margin-top: 80px;
+}
+.hero-texts {
+    margin-left: 50px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 64px;
+
+    line-height: 106%;
+    letter-spacing: -0.04em;
+    width: 563px;
+    height: 204px;
+    margin-top: 80px;
+    padding: 0 0 0 0;
+    margin-bottom: 0;
+    
+}
+.photography {
+    color: var(--color-4);
+    font-style: italic;
+    font-weight: 400;
+}
+.hero-p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+
+    width: 418px;
+    height: 54px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 20px;
+}
+
+
+.hero-users {
+    display: flex;
+    flex-direction: row;
+    margin-top: 137px;
+    margin-bottom: 50px;
+}
+.hero-users-pic{
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+
+    width: 137px;
+    height: 54px;
+    gap: 0;
+    display: flex;
+    flex-direction: row;
+}
+.hero-users-pic li {
+    margin-right: -16px;
+}
+.hero-users-text {
+    padding-left: 0;
+    margin-left: 12px;
+    margin-top: 0;
+    width: 82px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    padding: 0, 0, 0, 0;
+}
+.hero-reviews-vector {
+    background-color: var(--color-4);
+    border-radius: 50%;
+    padding: 15px 15px 15px 15px;
+    margin-left: 40px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.hero-reviews-text {
+    width: 57px;
+    height: 48px;
+    padding-left: 12px;
+    margin-top: 5px;
+
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.04em;
+}
+.hero-reviews-text span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.04em;
+    color: rgba(255, 255, 255, 0.5);    
+}
+
+
+/* slogan */
+.slogan {
+    width: 1440px;
+    height: 112px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0 0 0 0;
+    margin-top: 150px;
+}
+.slogan h2 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 59px;
+
+    /* line-height: 64px; */ 
+    line-height: 108%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #bea69e;
+    margin: 24px 100px 24px 100px ;
+}
+.slogan span {
+    color: #fff;
+}
+
+/* about us */
+.about-us {
+    width: 1240px;
+    height: 344px;
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-right: 100px;
+
+
+}
+.about-us h2 {
+    font-weight: 500;
+    font-size: 48px;
+
+    line-height: 112%;
+    letter-spacing: -0.04em;
+}
+.about-us h2 span{
+    color: var(--color-4);
+}
+
